@@ -5,6 +5,12 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  margin-top: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
@@ -14,7 +20,7 @@ body {
   grid-template-rows: minmax(130px, auto) repeat(5, 100px);
 }
 
-#display {
+#display-screen {
   background-color: #333;
   grid-column: 1 / -1;
   font-family: digital;
@@ -36,7 +42,7 @@ body {
   grid-row: span 2;
 }
 
-#all-clear {
+#clear {
   background-color: rgb(172, 57, 57);
 }
 #equals {
@@ -61,4 +67,8 @@ button:hover {
 
 .operand {
   background-color: rgb(102, 102, 102);
+}
+
+#formula {
+  color: #ffa500;
 }
